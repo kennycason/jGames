@@ -1,0 +1,684 @@
+/*
+    Document   : boardgames
+    Created on : Aug 5, 2011, 4:56:12 PM
+    Author     : kenny
+    Description:
+*/
+
+
+/* Checkers */
+.checker_board {
+    width : 256px;
+    height: 256px;
+    display: block;
+}
+
+.checker_board  .piece {
+    width : 32px;
+    height: 32px;
+    float:left;
+}
+.checker_board .board_dark {
+    background:transparent url("../img/checkers/dark.png") no-repeat;
+}
+
+.checker_board .board_light {
+    background:transparent url("../img/checkers/light.png") no-repeat;
+}
+
+.checker_board .red_piece {
+    background:transparent url("../img/checkers/red.png") no-repeat;
+}
+
+.checker_board .black_piece {
+    background:transparent url("../img/checkers/black.png") no-repeat;
+}
+
+
+/* Chess */
+.chess_board {
+    width : 256px;
+    height: 256px;
+    display: block;
+}
+
+.chess_board .board_dark {
+    background:transparent url("../img/chess/dark.png") no-repeat;
+}
+
+.chess_board .board_light {
+    background:transparent url("../img/chess/light.png") no-repeat;
+}
+
+.chess_board .piece {
+    width : 32px;
+    height: 32px;
+    float:left;
+}
+
+.chess_board .white_pawn {
+    background:transparent url("../img/chess/white_pawn.png") no-repeat;
+}
+
+.chess_board .white_rook {
+    background:transparent url("../img/chess/white_rook.png") no-repeat;
+}
+
+.chess_board .white_knight {
+    background:transparent url("../img/chess/white_knight.png") no-repeat;
+}
+
+.chess_board .white_bishop {
+    background:transparent url("../img/chess/white_bishop.png") no-repeat;
+}
+
+.chess_board .white_king {
+    background:transparent url("../img/chess/white_king.png") no-repeat;
+}
+
+.chess_board .white_queen {
+    background:transparent url("../img/chess/white_queen.png") no-repeat;
+}
+
+.chess_board .black_pawn {
+    background:transparent url("../img/chess/black_pawn.png") no-repeat;
+}
+
+.chess_board .black_rook {
+    background:transparent url("../img/chess/black_rook.png") no-repeat;
+}
+
+.chess_board .black_knight {
+    background:transparent url("../img/chess/black_knight.png") no-repeat;
+}
+
+.chess_board .black_bishop {
+    background:transparent url("../img/chess/black_bishop.png") no-repeat;
+}
+
+.chess_board .black_king {
+    background:transparent url("../img/chess/black_king.png") no-repeat;
+}
+
+.chess_board .black_queen {
+    background:transparent url("../img/chess/black_queen.png") no-repeat;
+}
+
+/* XiangQi */
+
+.xiangqi_board {
+    background:transparent url("../img/xiangqi/board.jpg") no-repeat;
+    width : 323px;
+    height: 341px;
+    display: block;
+    padding-left:3px;
+
+}
+
+.xiangqi_board .piece {
+    width : 35px;
+    height: 35px;
+    float:left;
+
+}
+
+.xiangqi_board .red_pawn {
+    background:transparent url("../img/xiangqi/red_pawn.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .red_rook {
+    background:transparent url("../img/xiangqi/red_rook.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .red_knight {
+    background:transparent url("../img/xiangqi/red_knight.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .red_bishop {
+    background:transparent url("../img/xiangqi/red_bishop.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .red_king {
+    background:transparent url("../img/xiangqi/red_king.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .red_advisor {
+    background:transparent url("../img/xiangqi/red_advisor.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .red_cannon {
+    background:transparent url("../img/xiangqi/red_cannon.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_pawn {
+    background:transparent url("../img/xiangqi/black_pawn.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_rook {
+    background:transparent url("../img/xiangqi/black_rook.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_knight {
+    background:transparent url("../img/xiangqi/black_knight.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_bishop {
+    background:transparent url("../img/xiangqi/black_bishop.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_king {
+    background:transparent url("../img/xiangqi/black_king.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_advisor {
+    background:transparent url("../img/xiangqi/black_advisor.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+.xiangqi_board .black_cannon {
+    background:transparent url("../img/xiangqi/black_cannon.png") no-repeat;
+    position: relative;
+    top:-2px;
+}
+
+
+/* Go */
+
+.go_board {
+    background:transparent url("../img/go/board.png") no-repeat;
+    width : 441px;
+    height: 441px;
+    display: block;
+    padding-left:5px;
+    padding-top:5px;
+}
+.go_board13x13 {
+    background:transparent url("../img/go/board13x13.png") no-repeat;
+    width : 306px;
+    height: 306px;
+    display: block;
+    padding-left:5px;
+    padding-top:5px;
+}
+
+.go_board13x13 .piece,
+.go_board .piece {
+    width : 23px;
+    height: 23px;
+    float:left;
+
+}
+
+.go_board13x13 .white,
+.go_board .white {
+    background:transparent url("../img/go/white.png") no-repeat;
+}
+
+.go_board13x13 .black,
+.go_board .black {
+    background:transparent url("../img/go/black.png") no-repeat;
+}
+
+
+/* Checkers */
+.checker_board {
+    width : 256px;
+    height: 256px;
+    display: block;
+}
+
+.checker_board  .piece {
+    width : 32px;
+    height: 32px;
+    float:left;
+}
+.checker_board .board_dark {
+    background:transparent url("../img/checkers/dark.png") no-repeat;
+}
+
+.checker_board .board_light {
+    background:transparent url("../img/checkers/light.png") no-repeat;
+}
+
+.checker_board .red_piece {
+    background:transparent url("../img/checkers/red.png") no-repeat;
+}
+
+.checker_board .black_piece {
+    background:transparent url("../img/checkers/black.png") no-repeat;
+}
+
+/* Shogi */
+.shogi_board {
+    width : 315px;
+    height: 396px;
+    display: block;
+}
+
+.shogi_board  .piece {
+    width : 35px;
+    height: 44px;
+    float:left;
+}
+
+.shogi_board .board_piece {
+    background:transparent url("../img/shogi/board.png") no-repeat;
+}
+
+.shogi_board .osho {
+    background:transparent url("../img/shogi/osho.png") no-repeat;
+}
+
+.shogi_board .gyokusho {
+    background:transparent url("../img/shogi/gyokusho.png") no-repeat;
+}
+
+.shogi_board .hisha {
+    background:transparent url("../img/shogi/hisha.png") no-repeat;
+}
+
+.shogi_board .ryu {
+    background:transparent url("../img/shogi/ryu.png") no-repeat;
+}
+
+.shogi_board .kakugyo {
+    background:transparent url("../img/shogi/kakugyo.png") no-repeat;
+}
+
+.shogi_board .ryuma {
+    background:transparent url("../img/shogi/ryuma.png") no-repeat;
+}
+
+.shogi_board .ginsho {
+    background:transparent url("../img/shogi/ginsho.png") no-repeat;
+}
+
+.shogi_board .narigin {
+    background:transparent url("../img/shogi/narigin.png") no-repeat;
+}
+
+.shogi_board .keima {
+    background:transparent url("../img/shogi/keima.png") no-repeat;
+}
+
+.shogi_board .narikei {
+    background:transparent url("../img/shogi/narikei.png") no-repeat;
+}
+
+.shogi_board .kyosha {
+    background:transparent url("../img/shogi/kyosha.png") no-repeat;
+}
+
+.shogi_board .narikyo {
+    background:transparent url("../img/shogi/narikyo.png") no-repeat;
+}
+
+.shogi_board .fuhyo {
+    background:transparent url("../img/shogi/fuhyo.png") no-repeat;
+}
+
+.shogi_board .tokin {
+    background:transparent url("../img/shogi/tokin.png") no-repeat;
+}
+
+
+/* Othello */
+.othello_board {
+    width : 256px;
+    height: 256px;
+    display: block;
+}
+
+.othello_board  .piece {
+    width : 32px;
+    height: 32px;
+    float:left;
+}
+.othello_board .board_piece {
+    background:transparent url("../img/othello/board.png") no-repeat;
+}
+
+.othello_board .white_piece {
+    background:transparent url("../img/othello/white.png") no-repeat;
+}
+
+.othello_board .black_piece {
+    background:transparent url("../img/othello/black.png") no-repeat;
+}
+
+/* Tic Tac Toe */
+
+.tictactoe_board {
+    background:transparent url("../img/tictactoe/board.png") no-repeat;
+    width : 225px;
+    height: 225px;
+    display: block;
+}
+
+.tictactoe_board .piece {
+    width : 75px;
+    height: 75px;
+    float:left;
+
+}
+
+.tictactoe_board .x {
+    background:transparent url("../img/tictactoe/x.png") no-repeat;
+}
+
+.tictactoe_board .o {
+    background:transparent url("../img/tictactoe/o.png") no-repeat;
+}
+
+
+ /* Dice */
+
+.dice_holder {
+
+}
+
+.dice_holder .dice {
+    float:left;
+}
+
+.dice_holder .dice .one {
+    background:transparent url("../img/dice/d6.png") no-repeat;
+    background-position:0px 0px;
+    width : 40px;
+    height: 40px;
+}
+
+.dice_holder .dice .two {
+    background:transparent url("../img/dice/d6.png") no-repeat;
+    background-position:-40px 0px;
+    width : 40px;
+    height: 40px;
+}
+
+.dice_holder .dice .three {
+    background:transparent url("../img/dice/d6.png") no-repeat;
+    background-position:-80px 0px;
+    width : 40px;
+    height: 40px;
+}
+
+.dice_holder .dice .four {
+    background:transparent url("../img/dice/d6.png") no-repeat;
+    background-position:0px -40px;
+    width : 40px;
+    height: 40px;
+}
+
+.dice_holder .dice .five {
+    background:transparent url("../img/dice/d6.png") no-repeat;
+    width : 40px;
+    height: 40px;
+}
+
+.dice_holder .dice .six {
+    background:transparent url("../img/dice/d6.png") no-repeat;
+    background-position:-80px -40px;
+    width : 40px;
+    height: 40px;
+}
+
+ /* Cards */
+
+.card_holder {
+
+}
+
+.card_holder .card {
+    background:transparent url("../img/cards/cards.png") 0 0 no-repeat;
+    width : 73px;
+    height: 98px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.card_holder .clubs_ace {
+    background-position:0px 0px;
+}
+
+.card_holder .clubs_2 {
+    background-position:-73px 0px;
+}
+
+.card_holder .clubs_3 {
+    background-position:-146px 0px;
+}
+
+.card_holder .clubs_4 {
+    background-position:-219px 0px;
+}
+
+.card_holder .clubs_5 {
+    background-position:-292px 0px;
+}
+
+.card_holder .clubs_6 {
+    background-position:-365px 0px;
+}
+
+.card_holder .clubs_7 {
+    background-position:-438px 0px;
+}
+
+.card_holder .clubs_8 {
+    background-position:-511px 0px;
+}
+
+.card_holder .clubs_9 {
+    background-position:-584px 0px;
+}
+
+.card_holder .clubs_10 {
+    background-position:-657px 0px;
+}
+
+.card_holder .clubs_jack {
+    background-position:-730px 0px;
+}
+
+.card_holder .clubs_queen {
+    background-position:-803px 0px;
+}
+
+.card_holder .clubs_king {
+    background-position:-876px 0px;
+}
+
+.card_holder .spades_ace {
+    background-position:0px -98px;
+}
+
+.card_holder .spades_2 {
+    background-position:-73px -98px;
+}
+
+.card_holder .spades_3 {
+    background-position:-146px -98px;
+}
+
+.card_holder .spades_4 {
+    background-position:-219px -98px;
+}
+
+.card_holder .spades_5 {
+    background-position:-292px -98px;
+}
+
+.card_holder .spades_6 {
+    background-position:-365px -98px;
+}
+
+.card_holder .spades_7 {
+    background-position:-438px -98px;
+}
+
+.card_holder .spades_8 {
+    background-position:-511px -98px;
+}
+
+.card_holder .spades_9 {
+    background-position:-584px -98px;
+}
+
+.card_holder .spades_10 {
+    background-position:-657px -98px;
+}
+
+.card_holder .spades_jack {
+    background-position:-730px -98px;
+}
+
+.card_holder .spades_queen {
+    background-position:-803px -98px;
+}
+
+.card_holder .spades_king {
+    background-position:-876px -98px;
+}
+
+.card_holder .hearts_ace {
+    background-position:0px -196px;
+}
+
+.card_holder .hearts_2 {
+    background-position:-73px -196px;
+}
+
+.card_holder .hearts_3 {
+    background-position:-146px -196px;
+}
+
+.card_holder .hearts_4 {
+    background-position:-219px -196px;
+}
+
+.card_holder .hearts_5 {
+    background-position:-292px -196px;
+}
+
+.card_holder .hearts_6 {
+    background-position:-365px -196px;
+}
+
+.card_holder .hearts_7 {
+    background-position:-438px -196px;
+}
+
+.card_holder .hearts_8 {
+    background-position:-511px -196px;
+}
+
+.card_holder .hearts_9 {
+    background-position:-584px -196px;
+}
+
+.card_holder .hearts_10 {
+    background-position:-657px -98px;
+}
+
+.card_holder .hearts_jack {
+    background-position:-730px -196px;
+}
+
+.card_holder .hearts_queen {
+    background-position:-803px -196px;
+}
+
+.card_holder .hearts_king {
+    background-position:-876px -196px;
+}
+
+.card_holder .diamonds_ace {
+    background-position:0px -294px;
+}
+
+.card_holder .diamonds_2 {
+    background-position:-73px -294px;
+}
+
+.card_holder .diamonds_3 {
+    background-position:-146px -294px;
+}
+
+.card_holder .diamonds_4 {
+    background-position:-219px -196px;
+}
+
+.card_holder .diamonds_5 {
+    background-position:-292px -294px;
+}
+
+.card_holder .diamonds_6 {
+    background-position:-365px -294px;
+}
+
+.card_holder .diamonds_7 {
+    background-position:-438px -294px;
+}
+
+.card_holder .diamonds_8 {
+    background-position:-511px -294px;
+}
+
+.card_holder .diamonds_9 {
+    background-position:-584px -196px;
+}
+
+.card_holder .diamonds_10 {
+    background-position:-657px -294px;
+}
+
+.card_holder .diamonds_jack {
+    background-position:-730px -196px;
+}
+
+.card_holder .diamonds_queen {
+    background-position:-803px -294px;
+}
+
+.card_holder .diamonds_king {
+    background-position:-876px -294px;
+}
+
+
+/* General */
+.rotate180 {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+

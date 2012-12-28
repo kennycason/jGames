@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+     <title>jGames - Game Display Demo</title>
+     <META name="description" content="jGames - display games states of various classic games using jQuery">
+     <META name="keywords" content="jQuery jGames, game display, chess, checkers, go, xiangqi, shogi, othello, cards">
+
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/jgames/jquery.jgames.js"></script>
+    <script type="text/javascript" src="js/jgames/jquery.jgames.demo-data.js"></script>
+    <link href="js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+
+        // refer to js/jgames/jquery.games.demo-data.js for the data
+        $("#checkers").checkers(board_checkers);
+        $("#chess").chess(board_chess);
+        $("#xiangqi").xiangqi(board_xiangqi);
+        $("#go").go(board_go);
+        $("#go13").go(board_go_13);
+        $("#chess_anim").chessAnimator(chessAnim, 1000);
+        $("#shogi").shogi(board_shogi);
+        $("#othello").othello(board_othello);
+        $("#tictactoe").tictactoe(board_tictactoe);
+        $("#d6").d6(d6);
+        $("#cards").cards(cards);
+        $("#chess_anim").chessAnimator(chessAnim, 1000);
+        $("#shogi_anim").shogiAnimator(board_shogiAnim, 1000);
+
+     });
+    </script>
+</head>
+<body>
+    <table>
+        <tr><td><div id="go13"></div></td><td><div id="go"></div></td><td><div id="checkers"></div></td></tr>
+        <tr><td><div id="xiangqi"></div></td><td><div id="chess"></div></td><td><div id="shogi"></div></td></tr>
+        <tr><td><div id="othello"></div></td><td><div id="tictactoe"></div></td><td><div id="d6"></div></td></tr>
+        <tr><td><div id="cards"></div></td><td><div id="chess_anim"></div></td><td><div id="shogi_anim"></div></td></tr>
+    </table>
+
+
+</body>
+</html>
