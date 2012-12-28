@@ -7,7 +7,8 @@ View post for more detail usage
 http://ken-soft.com/2011/08/08/jgames/
 
 Simple Chess Example:
-
+```html
+<code>
 <script type="text/javascript" src="js/jgames/jquery.jgames.js"></script>
 <link href="js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 
@@ -25,3 +26,5 @@ Simple Chess Example:
             ["wr", "wn", "wb", "wk", "wq", "wb", "wn", "wr"]];
        $("#chess").chess(board_chess);
 </script>
+</code>
+```
