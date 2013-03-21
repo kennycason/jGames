@@ -28,3 +28,21 @@ Simple Chess Example:
 </script>
 </code>
 ```
+<table>
+    <tr>
+        <td>
+            <img src="https://raw.github.com/kennycason/jGames/master/jGames.png" width="400px"/>
+        </td>
+        <td>
+            <img src="https://raw.github.com/kennycason/jGames/master/jGames2.png" width="400px"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://raw.github.com/kennycason/jGames/master/jGames3.png" width="400px"/>
+        </td>
+        <td>
+            <img src="https://raw.github.com/kennycason/jGames/master/jGames4.png" width="400px"/>
+        </td>
+    </tr>
+</table>
